@@ -27,9 +27,9 @@ This repository provides a Dockerized version of Burp Suite, a leading web vulne
     docker container run -e DISPLAY=$DISPLAY -v /tmp/.X11-unix/:/tmp/.X11-unix/ -v ./data/:/home/burp/data -p 8080:8080 burpsuit
 
 ## TODO tasks
-- [ ] Support Burp Suite Pro version
-- [ ] Allow users to define the Burp Suite version
-- [ ] Create a script to simplify usability
+- [ ] Support Burp Suite Pro version.
+- [ ] Allow users to define the Burp Suite version.
+- [ ] Create a script to simplify usability.
 
 ## Contributing
 Contributions are welcome! Please open an issue or submit a pull request with your enhancements, bug fixes, or ideas.
