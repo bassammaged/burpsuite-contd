@@ -33,6 +33,3 @@ This repository provides a Dockerized version of Burp Suite, a leading web vulne
 
 ## Contributing
 Contributions are welcome! Please open an issue or submit a pull request with your enhancements, bug fixes, or ideas.
-
-# burpsuite-contd
-This repository offers a Dockerized version of Burp Suite with GUI support, allowing seamless web vulnerability testing in an isolated, portable environment.
