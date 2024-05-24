@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Information
 This repository provides a Dockerized version of Burp Suite, a leading web vulnerability scanner. The setup includes GUI support, allowing users to interact with Burp Suite through a graphical user interface seamlessly within a container environment. 
 
@@ -13,19 +12,19 @@ This repository provides a Dockerized version of Burp Suite, a leading web vulne
 1. **Clone the Repository:**
     ```bash
    git clone https://github.com/bassammaged/burpsuite-contd.git
-   cd cburpsuite-contd```
+   cd cburpsuite-contd
 
 2. **Build the Docker Image:**
     ```bash
-    docker build -t burpsuite-gui .```
+    docker build -t burpsuite-gui .
 
 3. **Allow xhost access:**
     ```bash
-    Allow access: xhost + 127.0.0.1```
+    Allow access: xhost + 127.0.0.1
 
 4. **Run the Container:**
     ```bash
-    docker container run -e DISPLAY=$DISPLAY -v /tmp/.X11-unix/:/tmp/.X11-unix/ -v ./data/:/home/burp/data -p 8080:8080 burpsuit```
+    docker container run -e DISPLAY=$DISPLAY -v /tmp/.X11-unix/:/tmp/.X11-unix/ -v ./data/:/home/burp/data -p 8080:8080 burpsuit
 
 ## TODO tasks
 - [ ] Support Burp Suite Pro version
@@ -34,7 +33,6 @@ This repository provides a Dockerized version of Burp Suite, a leading web vulne
 
 ## Contributing
 Contributions are welcome! Please open an issue or submit a pull request with your enhancements, bug fixes, or ideas.
-=======
+
 # burpsuite-contd
 This repository offers a Dockerized version of Burp Suite with GUI support, allowing seamless web vulnerability testing in an isolated, portable environment.
->>>>>>> origin/master
